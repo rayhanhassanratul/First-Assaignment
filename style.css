@@ -1,3 +1,71 @@
-.logo-button{
+
+/* shared styles */
+
+buttons{
     color: #4E47FF;
+}
+
+.text-center{
+    text-align: center;
+    display: block;
+}
+
+
+  /* Navbar section style */ 
+
+.navbar-section {
+    display: flex;
+    gap: 1000px ;
+    margin-left: 150px;
+    margin-right: 150px;
+     justify-content: center;
+     
+    
+}
+
+
+.logo{
+   color: #4E47FF;
+   font-size: 35px;
+   font-weight: 800;
+   font-family: 'Inter', sans-serif;
+   margin-top: 50px;
+}
+
+.sign-up{
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 50px;
+    
+    
+}
+
+
+.banner-section{
+   display: flex;
+    align-items: center;
+     margin-top: 160px;
+  flex-direction: column;
+}
+
+.focus{
+     background-color: #4E47FF;
+    color: #FFFFFF;
+     height: 48px;
+    width: 175px;
+    border-radius: 10px;
+    margin-bottom: 155px;
+}
+
+.banner-title{
+    font-size: 65px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar-banner{
+    background-image: url(Assets/Hero-bg.png);
 }
