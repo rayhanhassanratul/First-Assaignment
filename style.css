@@ -157,3 +157,43 @@ buttons{
     color: #0000007a;
     padding-bottom: 50px;
 }
+
+
+/* rating section styles */
+
+.rating-title{
+    font-family: 'Raleway', sans-serif; 
+    font-weight: bold;
+    font-size: 42px;
+    color: #252432;
+    text-align: center;
+    margin-top: 140px;
+}
+
+
+
+.card {
+  background-color: white;
+  width: 300px;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  overflow: hidden;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.author {
+  display: flex;
+    gap: 15px;
+}
+
+.card-flex{
+    display: flex;
+    gap: 100px;
+    margin-left: 175px;
+}
+
+.avatar{
+    border-radius: 50%;
+}
