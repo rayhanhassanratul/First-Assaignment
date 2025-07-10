@@ -39,6 +39,8 @@ buttons{
     width: 300px;
     border-radius: 10px;
     margin-top: 50px;
+    border: none;
+    
     
     
 }
@@ -58,6 +60,7 @@ buttons{
     width: 175px;
     border-radius: 10px;
     margin-bottom: 155px;
+    border: none;
 }
 
 .banner-title{
@@ -68,4 +71,43 @@ buttons{
 
 .navbar-banner{
     background-image: url(Assets/Hero-bg.png);
+}
+
+/* action section atyle */
+
+
+
+.action{
+    display: flex;
+    gap: 500px;
+    margin-top: 120px;
+    margin-left: 142px;
+    margin-right: 160px;
+}
+
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.action-detail{
+    color: #25243280;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif; 
+}
+
+
+.launch-button{
+      background-color: #4E47FF;
+    color: #FFFFFF;
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+}
+
+.rounded-image {
+  border-radius: 48px; 
 }
