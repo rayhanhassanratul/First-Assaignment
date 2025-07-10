@@ -302,3 +302,26 @@ textarea{
     margin-bottom: 14px;
 }
 
+
+/* footer section */
+
+.footer-logo{
+    font-size: 100px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+
+.footer-pera{
+    text-align: center;
+    color: #8987A1;
+
+}
+
+.footer-nav{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: 600px;
+    color: #8987A1;
+}
+
