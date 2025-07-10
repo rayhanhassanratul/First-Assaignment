@@ -83,6 +83,7 @@ buttons{
     margin-top: 120px;
     margin-left: 142px;
     margin-right: 160px;
+    
 }
 
 .action-title{
@@ -110,4 +111,49 @@ buttons{
 
 .rounded-image {
   border-radius: 48px; 
+}
+
+
+/* productive section styles */
+
+.productive{
+    background-color: #4d47ff2f;
+    border-radius: 24px;
+    margin-top: 118px;
+    margin-left: 142px;
+    margin-right: 158px;
+}
+
+.productive-title{
+    text-align: center;
+    font-size: 39px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif; 
+    margin-top: 100px;
+    padding-top: 50px;
+    
+}
+
+.number{
+    display: flex;
+    margin-left: 220px;
+    margin-right: 142px;
+    gap: 158px;
+}
+
+
+.number-title{
+    color: #4E47FF;
+     font-family: 'Inter', sans-serif;
+     font-size: 80px;
+     font-weight: bold;
+    
+}
+
+
+.number-sub{
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    color: #0000007a;
+    padding-bottom: 50px;
 }
