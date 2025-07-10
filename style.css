@@ -197,3 +197,46 @@ buttons{
 .avatar{
     border-radius: 50%;
 }
+
+
+
+/* ready section styles */
+
+.ready{
+     display: flex;
+    align-items: center;
+     margin-top: 137px;
+  flex-direction: column;
+  background-color: #f4f0f0;
+  margin-left: 220px;
+  margin-right: 150px;
+}
+
+.ready-title{
+    font-family: 'Raleway', sans-serif; 
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.ready-sub{
+    color: #0000007a;
+    font-size: 16px;
+}
+
+
+.get-start{
+       background-color: #4E47FF;
+    color: #FFFFFF;
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.banner-image{
+    
+  
+  height: auto;
+  border-radius: 20px;
+}
