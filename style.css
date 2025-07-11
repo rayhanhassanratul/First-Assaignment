@@ -125,6 +125,7 @@ body {
     margin-top: 118px;
     margin-left: 170px;
     margin-right: 158px;
+    padding: 5px 0px 20px 0px;
 }
 
 .productive-title {
@@ -134,6 +135,7 @@ body {
     font-family: 'Raleway', sans-serif;
     margin-top: 50px;
     padding-top: 50px;
+    margin-bottom: -20px;
     
 
 }
@@ -213,19 +215,23 @@ body {
     margin-top: 137px;
     flex-direction: column;
     background-color: #f4f0f0;
-    margin-left: 220px;
-    margin-right: 150px;
+    margin-left: 175px;
+    margin-right: 130px;
+    border-radius: 16px;
 }
 
 .ready-title {
     font-family: 'Raleway', sans-serif;
     font-size: 50px;
     font-weight: bold;
+    margin-bottom: -15px;
 }
 
 .ready-sub {
     color: #0000007a;
     font-size: 16px;
+    font-family: 'Inter', sans-serif;
+
 }
 
 
@@ -265,10 +271,10 @@ body {
 
 .getin-touch {
     display: flex;
-    gap: 120px;
+    gap: 250px;
     margin-top: 95px;
     margin-bottom: 100px;
-    margin-left: 90px;
+    
 }
 
 
@@ -281,11 +287,12 @@ body {
     background-color: #4E47FF;
     color: #FFFFFF;
     height: 50px;
-    width: 100%;
+    width: 110%;
     border-radius: 10px;
     border: none;
     margin-bottom: 20px;
     cursor: pointer;
+    padding: 0px 20px 0px 20px;
 
 
 
@@ -300,6 +307,7 @@ input {
     margin-bottom: 14px;
     border: #8987A1;
     color: #FFFFFF;
+    padding: 0px 20px 0px 20px;
 }
 
 .getin-tex {
@@ -315,6 +323,7 @@ textarea {
     margin-bottom: 14px;
     border: 10px #EFF2F7;
     resize: none;
+    padding: 0px 20px 0px 20px;
 }
 
 
@@ -345,7 +354,7 @@ textarea {
 footer {
 background-color: white;
     margin: 0;
-    padding: 0;
+    padding: 100px 0px 100px 0px;
 }
 
 
@@ -417,9 +426,19 @@ buttons {
 
 label{
     font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    
 }
 
 
 .date{
     color: #8987A1;
 }
+
+
+a{
+    text-decoration: none;
+    color: #8987A1;
+}
+
+
